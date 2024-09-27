@@ -1,1 +1,1 @@
-wdb : gunicorn portfolio_website.wsgi --bind 0.0.0.0:$PORT
+wdb : gunicorn first-django.wsgi --bind 0.0.0.0:$PORT
